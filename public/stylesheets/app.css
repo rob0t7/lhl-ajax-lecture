@@ -1,0 +1,30 @@
+.brewery-details--header {
+  width: 100%;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.brewery-details--header--mask {
+  background: black;
+  opacity: 0.3;
+  height: 100%;
+  width: 100%;
+}
+
+.brewery-details--name {
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+
+.brewery-details--description {
+  font-size: 2rem;
+  padding: 3rem;
+  text-align: center;
+}
